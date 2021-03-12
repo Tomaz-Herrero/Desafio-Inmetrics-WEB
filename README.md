@@ -1,64 +1,42 @@
-![Logo of the project](http://logo_link)
- 
 ## Desafio Inmetrics
- 
-Para poder utilizar os testes você vai precisar ter....
- 
- 
+Projeto de testes automatizados Web. 
+Os testes fazem parte do desafio lançado pela empresa Inmetrics.
+A automação acontecera na Web: https://inm-test-app.herokuapp.com/accounts/login/
+
 ## Tecnologias
- 
 Tecnologias utilizadas para esse projeto
  
-* Java -  jdk1.8.0_271
-* Cucumber
-* Allure-Report
+* Java 8 -  jdk1.8.0_271
+* Maven - Apache Maven 3.6.1
+* Selenium
+* Cucumber  
+* Allure Report
+   
+## Instalando o projeto
  
-## Services Used
+* Você vai precisar instalar o java para desenvolvimento (jkd - jdk1.8.0_271)
+> https://www.oracle.com/br/java/technologies/javase/javase-jdk8-downloads.html
+* Instalar uma IDE para desenvolvimento (Eclipse, IntelliJ.. ou qualquer outra que suporte a linguagem JAVA)
+> https://www.eclipse.org/downloads/packages/release/2020-03/r
+* Pode ser que mesmo importando as bibliotecas do Cucumber, utilizando o eclipse você tenha que instalar pelo endereço:
+> http://cucumber.github.io/cucumber-eclipse/update-site/
+* Intalar as bibliotecas utilizando o (maven -install), por linha de comando ou nas opções do sistema que está utilizando.
+
+## Com todo o ambiente preparado  
+Entre no diretório (src/test/java/ -> package -> runner);
+Dentro do pacote runner -> Classe (TestRunner)
+Clique com o botão direito na classe e selecione a opção => Run Ass, Junit Teste
+
  
-* Github
-* ...
+## Observação
+  - Pode ser configurado um ou mais cenários de teste, utilizando a tag "@" 
+  - Para o desavio a runner rodará todos os testes desenbvolvidos.
+
+## Versão
  
+1.0.0
  
-## Ruby Gems
-...
- 
-## Getting started
- 
-* To install gems:
->    $ bundle install
-* To create the bank and do as migrations:
->    $ rake db:create db:migrate db:seed
-* To run the project:
->    $ rails s
- 
-## How to use
- 
-Here will be the images and descriptions. Principal content.
- 
- 
-## Features
- 
-  - Here will be the features.
- 
- 
-## Links
- 
-  - Link of deployed application: (if has been deployed)
-  - Repository: https://link_of_repository
-    - In case of sensitive bugs like security vulnerabilities, please contact
-      YOUR EMAIL directly instead of using issue tracker. We value your effort
-      to improve the security and privacy of this project!
- 
- 
-## Versioning
- 
-1.0.0.0
- 
- 
-## Authors
- 
-* **YOUR NAME**: @YOUR_GITHUB_NICKNAME (https://github.com/YOUR_GITHUB_NICKNAME)
- 
- 
-Please follow github and join us!
-Thanks to visiting me and good coding!"# Desafio-Inmetrics-WEB" 
+## Tomaz Henrique dos P. Herrero
+### Email    => tomazherrero@gmail.com
+### Linkedin => https://www.linkedin.com/in/tomaz-herrero/
+
