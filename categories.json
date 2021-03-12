@@ -1,0 +1,41 @@
+[
+  {
+    "name": "Testes Não Executados", 
+    "matchedStatuses": ["skipped"] 
+  },
+  
+    {
+    "name": "Executados com Sucesso", 
+    "matchedStatuses": ["passed"]
+  },
+  
+  {
+    "name": "Executados com Defeito",
+    "matchedStatuses": ["broken", "failed"],
+    "traceRegex": ".*AssertionError.*"
+  },
+  {
+    "name": "Excessao FTABB",
+    "matchedStatuses": ["broken", "failed"],
+    "messageRegex": ".*element.*"
+  },
+  
+    {
+    "name": "Excessao FTABB",
+    "matchedStatuses": ["broken", "failed"],
+    "messageRegex": ".*Element.*"
+  },
+    {
+    "name": "Excessao FTABB",
+    "matchedStatuses": ["broken", "failed"],
+    "messageRegex": ".*localizado.*"
+  },
+  
+   {
+    "name": "Excessao FTABB",
+    "matchedStatuses": ["broken", "failed"],
+    "traceRegex": ".*Unexpected.*"
+  }
+  
+  
+]
