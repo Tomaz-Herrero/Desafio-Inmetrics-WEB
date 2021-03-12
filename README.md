@@ -11,7 +11,7 @@ Tecnologias utilizadas para esse projeto
 * Selenium
 * Cucumber  
 * Allure Report
-* CrhomeDriver (Google Crhome - 89.0.4389.82 (Versão oficial) 64 bits)
+* ChromeDriver (Google Chrome - 89.0.4389.82 (Versão oficial) 64 bits)
    
 ## Instalando o projeto
  
@@ -32,7 +32,7 @@ Clique com o botão direito na classe e selecione a opção => Run Ass, Junit Te
 ## Observação
   - Pode ser configurado um ou mais cenários de teste, utilizando a tag "@" 
   - Para o desafio a runner rodará todos os testes desenvolvidos.
-  - Para outras versões do Google Crhome, deve ser baixado e subistituido o driver dentro da pasta src/resources/driver/driver
+  - Para outras versões do Google Chrome, deve ser baixado e subistituido o driver dentro da pasta src/resources/driver/
   * Url do diriver disponivel em (https://chromedriver.chromium.org/downloads)
 
 ## Versão
